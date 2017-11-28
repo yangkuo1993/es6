@@ -69,7 +69,7 @@
 // const source2 = {c: 4};
 // Object.assign(target, source1,source2);
 // console.log(target)
-
+//
 // console.log(Object.assign(2))
 
 // Object.assign(undefined)
@@ -144,3 +144,13 @@
 // let { ...x } = obj;
 // obj.a.b = 2;
 // x.a.b // 2
+
+// let {x, y, ...z} = {x: 1, y:2, a: 3, b: 4};
+// console.log(z)
+
+// const o = Object.create({x: 1, y: 2});
+// o.z = 3;
+// let { x, ...{ y, z } } = o;
+// console.log(x)
+// console.log(y)
+// console.log(z)
