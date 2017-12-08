@@ -116,3 +116,28 @@ class chilShape extends Shape{
     }
 }
 var newOne = new chilShape();*/
+
+/*class Point{
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+    static hello() {
+        console.log('hello world');
+    }
+}
+class ColorPoint extends Point{
+    constructor(x, y, color){
+        super(x, y);
+        this.color = color;
+    }
+}
+let cp = new ColorPoint(4,9,'red');
+console.log(cp.x)
+console.log(cp.y)
+console.log(cp.color)
+console.log(cp instanceof Point)
+console.log(cp instanceof ColorPoint)
+ColorPoint.hello();
+console.log(Object.getPrototypeOf(ColorPoint) === Point)*/
+

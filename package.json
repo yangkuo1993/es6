@@ -1,0 +1,24 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangkuo1993/es6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangkuo1993/es6/issues"
+  },
+  "homepage": "https://github.com/yangkuo1993/es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
